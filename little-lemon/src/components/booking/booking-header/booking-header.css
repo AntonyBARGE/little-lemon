@@ -1,0 +1,26 @@
+.booking-header {
+    position: relative;
+    width: 68%;
+    padding: 40px 16%;
+}
+
+.booking-header img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -400px;
+    border-radius: 16px;
+    opacity: 0.8;
+}
+
+.booking-header .booking-select {
+    position: absolute;
+    top: 250px;
+    color: #EDEFEE;
+    width: 68%;
+    padding: 10px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

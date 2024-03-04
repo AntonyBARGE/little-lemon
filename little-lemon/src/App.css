@@ -5,6 +5,11 @@
 @import url('./components/home/testimonials/testimonials.css');
 @import url('./components/home/about/about.css');
 @import url('./components/footer/footer.css');
+@import url('./components/booking/booking-form/booking-form.css');
+@import url('./components/booking/booking-map/booking-map.css');
+@import url('./components/booking/contact-form/contact-form.css');
+@import url('./components/booking/confirmed-booking/confirmed-booking.css');
+@import url('./components/booking/booking-header/booking-header.css');
 
 @font-face {
   font-family: 'Markazi Text';
