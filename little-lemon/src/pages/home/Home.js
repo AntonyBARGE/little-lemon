@@ -1,6 +1,7 @@
 import Footer from "../../components/footer/Footer";
-import Hero from "../../components/hero/Hero";
-import Highlights from "../../components/highlights/Highlights";
+import Hero from "../../components/home/hero/Hero";
+import Highlights from "../../components/home/highlights/Highlights";
+import Testimonials from "../../components/home/testimonials/Testimonials";
 import NavBar from "../../components/navbar/Nav";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <NavBar />
       <Hero />
       <Highlights />
+      <Testimonials />
       <Footer />
     </>
   );

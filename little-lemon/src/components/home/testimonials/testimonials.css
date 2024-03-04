@@ -1,0 +1,54 @@
+.testimonials {
+    background-color: #495e57;
+    padding: 100px 16%;
+    text-align: center;
+    color: #EDEFEE;
+}
+
+.comment {
+    background-color: #EDEFEE;
+    border-radius: 16px;
+    color: #333333;
+    width: 230px;
+    display: flex;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.comment img {
+    width: 70px;
+    height: 90px;
+    border-radius: 16px;
+}
+
+.testimony {
+    height: 100px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.star {
+    color: #333333;
+}
+
+.star.filled {
+    color: #F4CE14;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.testimonials button {
+    margin-top: 75px;
+}
+
+.username {
+    margin-bottom: 0;
+} 

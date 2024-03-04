@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "../../App.css";
+import "../../../App.css";
 
 function DishCard(props) {
   return (

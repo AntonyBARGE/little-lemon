@@ -1,6 +1,6 @@
 import React from "react";
-import "../../App.css";
-import recipes from "../../recipes";
+import "../../../App.css";
+import recipes from "../../../recipes";
 import DishCard from "./DishCard";
 
 function Highlights() {
