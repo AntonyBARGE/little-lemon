@@ -6,9 +6,17 @@ function Comment(props) {
   const stars = [];
   for (let i = 0; i < 5; i++) {
     if (i < props.rating) {
-      stars.push(<span className="star filled">★</span>);
+      stars.push(
+        <span className="star filled" key={i}>
+          ★
+        </span>
+      );
     } else {
-      stars.push(<span className="star">★</span>);
+      stars.push(
+        <span className="star" key={i}>
+          ★
+        </span>
+      );
     }
   }
   return (
