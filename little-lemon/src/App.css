@@ -2,6 +2,7 @@
 @import url('./components/highlights/highlights.css');
 @import url('./components/navbar/navbar.css');
 @import url('./components/widgets/button.css');
+@import url('./components/footer/footer.css');
 
 @font-face {
   font-family: 'Markazi Text';
@@ -95,4 +96,12 @@ p {
 strong {
   font-size: 20px;
   font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

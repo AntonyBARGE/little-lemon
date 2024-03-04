@@ -1,0 +1,50 @@
+footer section {
+    padding: 10px 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.company-info img {
+    margin-top: 12px;
+    padding-bottom: 100px;
+    cursor: pointer;
+    height: 250px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer ul li a, footer {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+
+footer ul li a:hover {
+    text-decoration: underline solid #333333;
+
+}
+
+@media (max-width: 900px) {
+    footer section {
+        padding: 10px 8%;
+        flex-direction: column;
+    }
+
+    footer div {
+        padding-bottom: 100px;
+    }
+
+    .company-info img {
+        margin-top: 12px;
+        cursor: pointer;
+        padding-bottom: 0;
+    }
+}

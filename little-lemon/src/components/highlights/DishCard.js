@@ -12,7 +12,7 @@ function DishCard(props) {
           <h5 className="price">${props.price}</h5>
         </div>
         <p className="description">{props.description}</p>
-        <button className="orderbtn">Order now</button>
+        <button className="orderbtn">Order a delivery</button>
       </div>
     </div>
   );
