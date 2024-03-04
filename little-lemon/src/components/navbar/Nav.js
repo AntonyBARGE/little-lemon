@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 function NavBar() {
@@ -10,9 +11,9 @@ function NavBar() {
 
   return (
     <nav className={`navbar ${isMenuOpen ? "visible" : ""}`}>
-      <a href="/" className="logo">
+      <Link to="/" className="logo">
         <img src="/assets/images/logo.svg" alt="logo"></img>
-      </a>
+      </Link>
 
       {/* mobile navbar button */}
       <button className="menu-icon" onClick={toggleMenu}>
@@ -22,22 +23,34 @@ function NavBar() {
       {/* nav items */}
       <ul className={`nav-links ${isMenuOpen ? "visible" : ""}`}>
         <li>
-          <a href="/">Home</a>
+          <Link to="/" className="link">
+            Home
+          </Link>
         </li>
         <li>
-          <a href="/">About</a>
+          <Link to="/" className="link">
+            About
+          </Link>
         </li>
         <li>
-          <a href="/">Menu</a>
+          <Link to="/" className="link">
+            Menu
+          </Link>
         </li>
         <li>
-          <a href="/booking">Reservations</a>
+          <Link to="/booking" className="link">
+            Reservations
+          </Link>
         </li>
         <li>
-          <a href="/">Order online</a>
+          <Link to="/" className="link">
+            Order online
+          </Link>
         </li>
         <li>
-          <a href="/">Login</a>
+          <Link to="/" className="link">
+            Login
+          </Link>
         </li>
       </ul>
     </nav>

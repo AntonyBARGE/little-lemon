@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
 
 function Footer() {
@@ -11,22 +12,34 @@ function Footer() {
         <div>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/" className="link">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/">About</a>
+              <Link to="/" className="link">
+                About
+              </Link>
             </li>
             <li>
-              <a href="/">Menu</a>
+              <Link to="/" className="link">
+                Menu
+              </Link>
             </li>
             <li>
-              <a href="/booking">Reservations</a>
+              <Link to="/booking" className="link">
+                Reservations
+              </Link>
             </li>
             <li>
-              <a href="/">Order online</a>
+              <Link to="/" className="link">
+                Order online
+              </Link>
             </li>
             <li>
-              <a href="/">Login</a>
+              <Link to="/" className="link">
+                Login
+              </Link>
             </li>
           </ul>
         </div>
@@ -50,13 +63,19 @@ function Footer() {
           <h3>Social Media Links</h3>
           <ul>
             <li>
-              <a href="/">Facebook</a>
+              <Link to="/" className="link">
+                Facebook
+              </Link>
             </li>
             <li>
-              <a href="/">Instagram</a>
+              <Link to="/" className="link">
+                Instagram
+              </Link>
             </li>
             <li>
-              <a href="/">X</a>
+              <Link to="/" className="link">
+                X
+              </Link>
             </li>
           </ul>
         </div>
