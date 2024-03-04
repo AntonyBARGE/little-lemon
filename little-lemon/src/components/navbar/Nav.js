@@ -38,7 +38,7 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link to="/booking" className="link">
+          <Link to="/booking" className="link" data-testid="test-id">
             Reservations
           </Link>
         </li>
