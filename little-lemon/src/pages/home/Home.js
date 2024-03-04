@@ -1,4 +1,5 @@
 import Footer from "../../components/footer/Footer";
+import About from "../../components/home/about/About";
 import Hero from "../../components/home/hero/Hero";
 import Highlights from "../../components/home/highlights/Highlights";
 import Testimonials from "../../components/home/testimonials/Testimonials";
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Highlights />
       <Testimonials />
+      <About />
       <Footer />
     </>
   );
