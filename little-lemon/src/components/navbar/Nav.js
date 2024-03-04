@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import hamburger from "../../assets/icons/hamburger.svg";
-import logo from "../../assets/images/logo.svg";
-import "./nav.css";
+import "../../App.css";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +11,12 @@ function NavBar() {
   return (
     <nav className={`navbar ${isMenuOpen ? "visible" : ""}`}>
       <a href="/" className="logo">
-        <img src={logo} alt="logo"></img>
+        <img src="/assets/images/logo.svg" alt="logo"></img>
       </a>
 
       {/* mobile navbar button */}
       <button className="menu-icon" onClick={toggleMenu}>
-        <img src={hamburger} alt="menu-icon"></img>
+        <img src="/assets/icons/hamburger.svg" alt="menu-icon"></img>
       </button>
 
       {/* nav items */}
@@ -33,7 +31,7 @@ function NavBar() {
           <a href="/">Menu</a>
         </li>
         <li>
-          <a href="/">Reservations</a>
+          <a href="/booking">Reservations</a>
         </li>
         <li>
           <a href="/">Order online</a>

@@ -1,0 +1,24 @@
+button {
+    background-color: #F4CE14;
+    color: #333333;
+    padding: 14px 24px;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #EE9972;
+}
+
+button.green {
+    background-color: #495E57;
+    color: #EDEFEE;
+}
+
+button.green-text {
+    color: #495E57;
+}

@@ -1,3 +1,13 @@
+@import url('./components/hero/hero.css');
+@import url('./components/highlights/highlights.css');
+@import url('./components/navbar/navbar.css');
+@import url('./components/widgets/button.css');
+
+@font-face {
+  font-family: 'Markazi Text';
+  src: local('Markazi Text'), url('../public/fonts/MarkaziText-Regular.ttf') format('truetype');
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #333333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +35,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #495E57;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +45,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  font-family: 'Markazi Text', serif;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 54px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+strong {
+  font-size: 20px;
+  font-weight: 500;
 }
